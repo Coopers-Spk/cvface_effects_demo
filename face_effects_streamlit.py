@@ -1,8 +1,6 @@
-pip install opencv-python mediapipe numpy
 import cv2
    
-
-# Load OpenCV built-in pretained face dect (Haar Cascade)
+# Load OpenCV built-in pre-trained face dect (Haar Cascade)
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_eye.xml")
