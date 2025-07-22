@@ -1,3 +1,4 @@
+uv pip install cv2
 import cv2
    
 
