@@ -1,4 +1,4 @@
-uv pip install cv2
+pip install opencv-python mediapipe numpy
 import cv2
    
 
